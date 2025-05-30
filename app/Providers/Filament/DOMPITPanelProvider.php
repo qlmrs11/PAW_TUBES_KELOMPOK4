@@ -27,6 +27,7 @@ class DOMPITPanelProvider extends PanelProvider
             ->id('dOMPIT')
             ->path('dOMPIT')
             ->login()
+            ->registration()
             ->colors([
                 'primary' => Color::Amber,
             ])
